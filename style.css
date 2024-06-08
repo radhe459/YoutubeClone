@@ -1,7 +1,7 @@
 body{
     box-sizing: border-box;
 }
-
+/* header start */
 .header{
     display: flex;
     overflow: hidden;
@@ -52,14 +52,61 @@ body{
 
 .rightPart{
     display: flex;
+    column-gap: 20px;
     width: 25%;
-    justify-content:space-between;
+    justify-content:flex-end;
+}
+
+@media screen and (max-width:600px) {
+    .rightPart{
+        display: none;
+    }
 }
 /* 
 #mic{
     border: 1px solid rgb(216, 213, 213);
     padding: 10px 10px;
 } */
+
+/* Header ends */
+
+/* options starts */
+.options{
+    margin-left: 10%;
+    display: flex;
+    
+    column-gap: 30px;
+    justify-content:flex-start;
+    object-fit: cover;
+    height: 35px;
+}
+
+.optionContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(241, 237, 237);
+    border-radius: 15%;
+    height: 100%;
+}
+
+.options .text{
+    position: relative;
+    font-size: 1.2em;
+    font-weight:200;
+    /* width: 20px; */
+    margin: 5px 5px;
+}
+
+.options .first{
+    background-color: black;
+    color: white;
+}
+
+
+/* options ends */
+
+
 /* videos content part start*/
 .main{
     display: flex;
