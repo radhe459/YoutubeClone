@@ -17,7 +17,7 @@ body{
 }
 
 .intputElement{
-    width: 80%;
+    width: 70%;
     border: 1px solid black;
     border-right: none;
     border-radius: 4px 0 0 4px;
@@ -41,7 +41,6 @@ body{
 }
 #youtubeIcon{
     color: red;
-
 }
 .YouTubeTitle{
     position: relative;
