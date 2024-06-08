@@ -57,6 +57,10 @@ body{
     justify-content:flex-end;
 }
 
+#mic{
+    margin-left: 10px;
+}
+
 @media screen and (max-width:600px) {
     .rightPart{
         display: none;
