@@ -89,6 +89,7 @@ body{
     justify-content:flex-start;
     object-fit: cover;
     height: 35px;
+    overflow: hidden;
 }
 
 .optionContainer{
