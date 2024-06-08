@@ -165,4 +165,18 @@ body{
     bottom: 40px;
 }
 
+@media screen and (max-width:600px) {
+    .videos{
+        width: 150px;
+        height: 100px;    
+    }
+    .videoContainer{
+        width: 150px;
+    }
+    .icon{
+        width: 20px;
+        height: 20px;
+    }
+}
+
 /* videos content part ends*/
